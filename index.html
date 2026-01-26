@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>とあるホテルの秘密｜エンディング</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#f6fbff;
+  --panel:#ffffff;
+  --accent:#4aa3ff;
+  --accent2:#5de1b7;
+  --text:#1e2a3a;
+  --muted:#6b7a90;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:"Noto Sans JP", sans-serif;
+  background:linear-gradient(180deg, #eaf4ff 0%, #f6fbff 60%);
+  color:var(--text);
+}
+
+header{
+  text-align:center;
+  padding:48px 20px 32px;
+}
+
+header h1{
+  font-size:2rem;
+  margin:0 0 12px;
+}
+
+header p{
+  color:var(--muted);
+  margin:0;
+}
+
+main{
+  max-width:900px;
+  margin:0 auto;
+  padding:0 20px 80px;
+}
+
+section{
+  background:var(--panel);
+  border-radius:20px;
+  padding:32px 28px;
+  margin-top:28px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+section h2{
+  margin-top:0;
+  font-size:1.4rem;
+}
+
+.story p{
+  line-height:1.9;
+  margin-bottom:1em;
+}
+
+.played-image{
+  margin:24px 0;
+  text-align:center;
+}
+
+.played-image img{
+  max-width:100%;
+  border-radius:16px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.credit-list{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px 24px;
+}
+
+.credit-item{
+  font-size:0.95rem;
+}
+
+.credit-item span{
+  display:block;
+  color:var(--muted);
+  font-size:0.85rem;
+}
+
+.buttons{
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  margin-top:24px;
+}
+
+.button{
+  flex:1 1 220px;
+  text-align:center;
+  padding:14px 18px;
+  border-radius:999px;
+  font-weight:600;
+  text-decoration:none;
+  color:#fff;
+  background:linear-gradient(135deg, var(--accent), var(--accent2));
+  box-shadow:0 8px 20px rgba(74,163,255,0.35);
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+
+.button:hover{
+  transform:translateY(-2px);
+  box-shadow:0 12px 26px rgba(74,163,255,0.45);
+}
+
+.button.secondary{
+  background:#111;
+  box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+footer{
+  text-align:center;
+  padding:32px 20px;
+  color:var(--muted);
+  font-size:0.85rem;
+}
+
+@media (max-width:600px){
+  .credit-list{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>とあるホテルの秘密</h1>
+  <p>— エンディング —</p>
+</header>
+
+<main>
+  <section class="story">
+    <h2>エンディングストーリー</h2>
+    <p>
+      後日、ひさきから一通の手紙が来た。
+      </p>
+    <p>
+      「無事にあなたに言われてきた任務、完了しましたよ！これで、私も恩返しができました！また、何かあったら言ってくださいね♪すぐに駆け付けます！」
+    </p>
+    <p>
+      続いて田中まみ逮捕のニュースが流れてきた。これですべてが終わった。彼女はどうやら罪を認めているらしい。そんなあなたのもとに三原からメッセージが届いていた。
+    </p>
+    <p>
+      三原のLINEに【ありがとうございました。】と送信しよう。
+    </p>
+
+    <div class="played-image">
+      <img src="played.png" alt="とあるホテルの秘密を体験してきました！">
+    </div>
+  </section>
+
+  <section>
+    <h2>スタッフクレジット</h2>
+    <div class="credit-list">
+      <div class="credit-item">企画・謎制作<span>RIDDLE STORY</span></div>
+      <div class="credit-item">シナリオ<span>RIDDLE STORY</span></div>
+      <div class="credit-item">Webデザイン<span>AI</span></div>
+      <div class="credit-item">システム演出<span>RIDDLE STORY<br>AI</span></div>
+      <div class="credit-item">デバッグ協力(敬称は略させていただきます)<span>凍響。<br>risa<br>日野 彰<br>緋色<br>アユタ</span></div>
+      <div class="credit-item">スペシャルサンクス<span>あなた</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>さらに楽しみたい方へ</h2>
+    <p>
+      「とあるホテルの秘密」は、パッケージ版をご用意させていただいております。詳しくは商品サイトをご確認ください。
+    </p>
+
+    <div class="buttons">
+      <a class="button" href="https://booth.pm/ja/items/7821674" target="_blank" rel="noopener">パッケージ版のご案内</a>
+      <a class="button secondary" href="https://twitter.com/intent/tweet?text=%EF%BC%8F%0A%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AF%E3%83%AA%E3%82%A2%EF%BC%81%0A%E3%80%8C%E3%81%A8%E3%81%82%E3%82%8B%E3%83%9B%E3%83%86%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%80%8D%E3%82%92%E4%BD%93%E9%A8%93%E3%81%97%E3%81%9F%EF%BC%81%0A%EF%BC%BC%0A%0A%EF%BC%BB%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E6%84%9F%E6%83%B3%E3%82%92%E3%81%A9%E3%81%86%E3%81%9E%EF%BC%81%EF%BC%BD%0A%0A%E4%BB%8A%E3%81%99%E3%81%90%E7%84%A1%E6%96%99%E3%81%A7%E9%81%8A%E3%81%B9%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E2%96%BC%0Ahttps%3A%2F%2Friddle-nazo-story.github.io%2F4-start%2F%0A%0A%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E7%89%88%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E2%96%BC%0Ahttps%3A%2F%2Fbooth.pm%2Fja%2Fitems%2F7821674%0A%0A%23RiddleStory4%20%23%E3%81%A8%E3%81%82%E3%82%8B%E3%83%9B%E3%83%86%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86" target="_blank" rel="noopener">Xで結果を報告する</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  とあるホテルの秘密 / RIDDLE STORY 4
+</footer>
+</body>
+</html>
