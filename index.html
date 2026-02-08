@@ -75,6 +75,35 @@ section h2{
   box-shadow:0 8px 20px rgba(0,0,0,0.15);
 }
 
+/* ===== アフターストーリー ===== */
+.after-story{
+  margin-top:40px;
+  padding-top:28px;
+  border-top:1px dashed #d7e6f5;
+}
+
+.after-story h3{
+  margin:0 0 12px;
+  font-size:1.2rem;
+}
+
+.after-note{
+  font-size:0.85rem;
+  color:var(--muted);
+  margin-bottom:16px;
+}
+
+.twitter-embed{
+  display:flex;
+  justify-content:center;
+}
+
+.twitter-embed blockquote{
+  max-width:500px;
+  width:100%;
+}
+/* ============================ */
+
 .credit-list{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -143,21 +172,50 @@ footer{
 <main>
   <section class="story">
     <h2>エンディングストーリー</h2>
+
     <p>
       後日、ひさきから一通の手紙が来た。
-      </p>
+    </p>
+
     <p>
       「無事にあなたに言われてきた任務、完了しましたよ！これで、私も恩返しができました！また、何かあったら言ってくださいね♪すぐに駆け付けます！」
     </p>
+
     <p>
       続いて田中まみ逮捕のニュースが流れてきた。これですべてが終わった。彼女はどうやら罪を認めているらしい。そんなあなたのもとに三原からメッセージが届いていた。
     </p>
+
     <p>
       三原のLINEに【ありがとうございました。】と送信しよう。
     </p>
 
     <div class="played-image">
       <img src="played.png" alt="とあるホテルの秘密を体験してきました！">
+    </div>
+
+    <!-- アフターストーリー -->
+    <div class="after-story">
+      <h3>アフターストーリー</h3>
+
+      <div class="after-note">
+        ※このアフターストーリーはパッケージ版とは内容が異なります。
+      </div>
+
+      <div class="twitter-embed">
+        <blockquote class="twitter-tweet">
+          <p lang="ja" dir="ltr">
+            すみません。ひさきです。この前はザ・ブルーホライズン東京の秘密を解き明かしていただき、ありがとうございました。<br>
+            お伝えしたいことがあるので私のLINEを追加してくれませんか？<br>
+            LINEに【ありがとうございました】と送信していただければ、すぐに返信します。
+            <a href="https://t.co/DushWvggtv">https://t.co/DushWvggtv</a>
+          </p>
+          &mdash; 「ひさき」 (@mystery_found)
+          <a href="https://twitter.com/mystery_found/status/2020520539593273409?ref_src=twsrc%5Etfw">
+            February 8, 2026
+          </a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
     </div>
   </section>
 
@@ -168,7 +226,7 @@ footer{
       <div class="credit-item">シナリオ<span>RIDDLE STORY</span></div>
       <div class="credit-item">Webデザイン<span>AI</span></div>
       <div class="credit-item">システム演出<span>RIDDLE STORY<br>AI</span></div>
-      <div class="credit-item">デバッグ協力(敬称は略させていただきます)<span>凍響。<br>risa<br>アユタ👻📷</span></div>
+      <div class="credit-item">デバッグ協力(敬称略)<span>凍響。<br>risa<br>アユタ👻📷</span></div>
       <div class="credit-item">スペシャルサンクス<span>あなた</span></div>
     </div>
   </section>
@@ -176,12 +234,17 @@ footer{
   <section>
     <h2>さらに楽しみたい方へ</h2>
     <p>
-      「とあるホテルの秘密」は、パッケージ版がございます。詳しくは商品サイトをご確認ください。
+      「とあるホテルの秘密」は、パッケージ版をご用意しております。<br>ザ・ブルーホライズン東京で使用されていた書類やおまけ謎付きなど、<br>『とあるホテルの秘密』をよりお楽しみいただける内容になっております。<br><br>詳しくは商品サイトをご確認ください。
     </p>
 
     <div class="buttons">
-      <a class="button" href="https://booth.pm/ja/items/7821674" target="_blank" rel="noopener">パッケージ版のご案内</a>
-      <a class="button secondary" href="https://twitter.com/intent/tweet?text=%EF%BC%8F%0A%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AF%E3%83%AA%E3%82%A2%EF%BC%81%0A%E3%80%8C%E3%81%A8%E3%81%82%E3%82%8B%E3%83%9B%E3%83%86%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%80%8D%E3%82%92%E4%BD%93%E9%A8%93%E3%81%97%E3%81%9F%EF%BC%81%0A%EF%BC%BC%0A%0A%EF%BC%BB%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E6%84%9F%E6%83%B3%E3%82%92%E3%81%A9%E3%81%86%E3%81%9E%EF%BC%81%EF%BC%BD%0A%0A%E4%BB%8A%E3%81%99%E3%81%90%E7%84%A1%E6%96%99%E3%81%A7%E9%81%8A%E3%81%B9%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E2%96%BC%0Ahttps%3A%2F%2Friddle-nazo-story.github.io%2F4-start%2F%0A%0A%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E7%89%88%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E2%96%BC%0Ahttps%3A%2F%2Fbooth.pm%2Fja%2Fitems%2F7821674%0A%0A%23RiddleStory4%20%23%E3%81%A8%E3%81%82%E3%82%8B%E3%83%9B%E3%83%86%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86" target="_blank" rel="noopener">Xで結果を報告する</a>
+      <a class="button" href="https://booth.pm/ja/items/7821674" target="_blank" rel="noopener">
+        パッケージ版のご案内
+      </a>
+      <a class="button secondary" href="https://twitter.com/intent/tweet?text=%EF%BC%8F%0A%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AF%E3%83%AA%E3%82%A2%EF%BC%81%0A%E3%80%8C%E3%81%A8%E3%81%82%E3%82%8B%E3%83%9B%E3%83%86%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%80%8D%E3%82%92%E4%BD%93%E9%A8%93%E3%81%97%E3%81%9F%EF%BC%81%0A%EF%BC%BC%0A%0A%EF%BC%BB%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E6%84%9F%E6%83%B3%E3%82%92%E3%81%A9%E3%81%86%E3%81%9E%EF%BC%81%EF%BC%BD%0A%0A%E4%BB%8A%E3%81%99%E3%81%90%E7%84%A1%E6%96%99%E3%81%A7%E9%81%8A%E3%81%B9%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E2%96%BC%0Ahttps%3A%2F%2Friddle-nazo-story.github.io%2F4-start%2F%0A%0A%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E7%89%88%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E2%96%BC%0Ahttps%3A%2F%2Fbooth.pm%2Fja%2Fitems%2F7821674%0A%0A%23RiddleStory4%20%23%E3%81%A8%E3%81%82%E3%82%8B%E3%83%9B%E3%83%86%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86"
+         target="_blank" rel="noopener">
+        Xで結果を報告する
+      </a>
     </div>
   </section>
 </main>
@@ -190,7 +253,4 @@ footer{
   とあるホテルの秘密 / RIDDLE STORY 4
 </footer>
 </body>
-
 </html>
-
-
